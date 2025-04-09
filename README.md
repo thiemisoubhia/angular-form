@@ -1,59 +1,61 @@
-# Democomponents
+# Angular Basics – Learning Journal ❤️
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
+Welcome! This repository contains a project I developed while studying Angular through the **Angular Basics course from Simplilearn**. It represents a hands-on learning journey focusing on **Angular Forms**, **Services**, and other core concepts of the framework.
 
-## Development server
+## 🚀 About the Project
 
-To start a local development server, run:
+This Angular project demonstrates how to create a user registration form using **Template-Driven Forms**, including data validation and submission logic.
 
-```bash
+The form allows:
+
+- Capturing and validating user data
+- Real-time feedback with error messages
+- Integration with a `submit()` function
+
+Additionally, I learned how to:
+
+- Create and register **components**
+- Import essential modules like `FormsModule`
+- Create and use **Angular Services** with `@Injectable`
+
+---
+
+## ❤️ Learning Summary
+A detailed summary of the key concepts covered is available in the following file:
+
+> 📌 [`/Angular_Learning_Journal2.0.pdf`](./Angular_Learning_Journal2.0.pdf)  
+> Includes explanations of Template-driven vs Reactive Forms, FormControl, FormGroup, Services, and more.
+
+---
+
+## Technologies and Resources Used
+
+- Angular CLI
+- Template-Driven Forms
+- Angular Services
+- Bootstrap for layout and styles
+- `FormsModule` and `CommonModule`
+
+---
+
+## How to Run
+
+```
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
 ng serve
 ```
+Then open http://localhost:4200 in your browser.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Useful Commands
+ng new democomponents – Creates a new Angular project
+ng g c form-component – Generates a new form component
+ng g service data – Creates a new service for business logic
 
-## Code scaffolding
+## Notes
+Make sure to import FormsModule in the @Component or @NgModule where you're using ngModel.
+When displaying validation errors, use ?.['errorName'] to avoid compiler warnings.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+Made with ❤️ while learning Angular through the Simplilearn – Angular Basics course.
